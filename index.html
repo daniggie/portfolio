@@ -28,19 +28,20 @@
                 <div class="d-flex align-items-center gap-3 fixed">
                     <button class="btn" style="background-color: var(--draft);" onclick="change('who')"><a
                             href="#who">Quem sou eu?</a></button>
-                    <button class="btn" style="background-color: var(--medium);" onclick="change('do')"><a href="#do">O que eu
+                    <button class="btn" style="background-color: var(--medium);" onclick="change('do')"><a href="#do">O
+                            que eu
                             faço?</a></button>
-                    <button class="btn" style="background-color: var(--light);"><a href="#art">Veja minhas pixel
+                    <button class="btn" style="background-color: var(--light);" onclick="change('art')"><a href="#art">Veja minhas pixel
                             arts!</a></button>
-                    <button class="btn" style="background-color: var(--dark);"><a href="#work">Veja meus
+                    <button class="btn" style="background-color: var(--dark);" onclick="change('work')"><a href="#work">Veja meus
                             trabalhos!</a></button>
                 </div>
             </div>
         </div>
 
         <div class="container-fluid">
-            <div class="container d-flex justify-content-around gap-3 align-items-start">
-                <div class="container w-50 d-flex border rounded" id="who">
+            <div class="container d-flex justify-content-around gap-3 align-items-center">
+                <div class="container w-100 d-flex rounded" id="who">
                     <div class="w-100">
                         <h4>Eu sou a Daniela Gross!</h4>
                         <p>
@@ -66,19 +67,40 @@
                     </div>
                 </div>
 
-                <div class="container w-50 border rounded" id="do">
+                
+
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="container w-50 rounded" id="do">
                     <h4>Hobbies e atividades</h4>
                     <p>
                         Desenvolvimento constante e pesquisas rotineiras sobre melhorias de código e otimizações.
                     </p>
                     <div class="container d-flex flex-wrap gap-3 align-items-center" style="padding: 0;">
-                        <button class="btn border"><a href="https://www.frontendmentor.io/profile/daniggie"></a>
-                            Atividades no Front-End Mentor</button>
-                        <button class="btn border"><a href="https://github.com/daniggie">Repositórios do
+                        <button class="btn border"><a href="https://www.frontendmentor.io/profile/daniggie"
+                                target="_blank">Atividades no Front-End Mentor</a>
+                        </button>
+                        <button class="btn border"><a href="https://github.com/daniggie" target="_blank">Repositórios do
                                 Git</a></button>
                     </div>
+                    <small>Além de fazer pixelart nas horas livres...</small>
                 </div>
+        </div>
 
+        <div class="container-fluid">
+            <div class="container d-flex justify-content-around gap-3 align-items-center">
+                <div class="container w-auto rounded" id="art">
+                    <div class="d-flex flex-wrap w-100 gap-3">
+                        <img src="images/pixelart/euetailo.png" alt="">
+                        <img src="images/pixelart/gato1.jpeg" alt="">
+                        <img src="images/pixelart/gato2.jpeg" alt="">
+                        <img src="images/pixelart/my.png" alt="">
+                        <img src="images/pixelart/roro.jpeg" alt="">
+                        <img src="images/pixelart/tailon.png" alt="">
+                    </div>
+                </div>
             </div>
         </div>
 
