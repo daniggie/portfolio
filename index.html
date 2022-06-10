@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="shortcut icon" href="images/lirio.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <main>
+
+        <div class="banner container d-flex align-items-center" style="margin-top: 0 !important;">
+            <div class="w-100">
+                <h1 class="w-100 mb-5">
+                    Bem-vindo ao meu postifólio!
+                    <br>
+                    Navegue para saber mais sobre mim ..: ʕ ᵔᴥᵔ ʔ
+                </h1>
+                <div class="d-flex align-items-center gap-3 fixed">
+                    <button class="btn" style="background-color: var(--draft);" onclick="change('who')"><a
+                            href="#who">Quem sou eu?</a></button>
+                    <button class="btn" style="background-color: var(--medium);" onclick="change('do')"><a href="#do">O que eu
+                            faço?</a></button>
+                    <button class="btn" style="background-color: var(--light);"><a href="#art">Veja minhas pixel
+                            arts!</a></button>
+                    <button class="btn" style="background-color: var(--dark);"><a href="#work">Veja meus
+                            trabalhos!</a></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="container d-flex justify-content-around gap-3 align-items-start">
+                <div class="container w-50 d-flex border rounded" id="who">
+                    <div class="w-100">
+                        <h4>Eu sou a Daniela Gross!</h4>
+                        <p>
+                            Sou uma jovem desenvolvedora de softwares, sites e tecnologias!
+                            <br>
+                            Tenho 19 anos e estou em busca dá melhor área de trabalho para eu atuar
+                            aplicando meus conhecimentos sobre:
+                        </p>
+                        <div class="languages d-flex flex-wrap gap-2">
+                            <p id="css">CSS</p>
+                            <p id="html">HTML</p>
+                            <p id="js">JS</p>
+                            <p id="json">JSON</p>
+                            <p id="java"> JAVA</p>
+                            <p id="jquery"> JQUERY</p>
+                            <p id="sql"> SQL</p>
+                            <p id="typescript">TypeScript</p>
+                            <p id="figma">Figma</p>
+                            <p id="cypress">Cypress</p>
+                            <p>Plataformas IOT</p>
+                            <p>Cloud Computing</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container w-50 border rounded" id="do">
+                    <h4>Hobbies e atividades</h4>
+                    <p>
+                        Desenvolvimento constante e pesquisas rotineiras sobre melhorias de código e otimizações.
+                    </p>
+                    <div class="container d-flex flex-wrap gap-3 align-items-center" style="padding: 0;">
+                        <button class="btn border"><a href="https://www.frontendmentor.io/profile/daniggie"></a>
+                            Atividades no Front-End Mentor</button>
+                        <button class="btn border"><a href="https://github.com/daniggie">Repositórios do
+                                Git</a></button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+
+
+</body>
+
+</html>
