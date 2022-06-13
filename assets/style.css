@@ -63,7 +63,6 @@ small{
 body {
     background: linear-gradient(270deg, var(--draft), var(--dark));
     width: 100%;
-    
 }
 
 ul li{
